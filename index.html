@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Portfolio | Nama Kamu</title>
+  <meta name="description" content="Portfolio pribadi Nama Kamu">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Background -->
+  <div class="bg-glow glow-1"></div>
+  <div class="bg-glow glow-2"></div>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <a href="#home" class="logo">
+      <span>&lt;</span>PORT<span>/&gt;</span>
+    </a>
+
+    <nav class="nav-menu" id="navMenu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Menu">
+      ☰
+    </button>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero section" id="home">
+
+      <div class="hero-content reveal">
+
+        <div class="status">
+          <span></span>
+          Available for projects
+        </div>
+
+        <p class="hello">HALO, SAYA</p>
+
+        <h1>
+          Nama <span>Kamu.</span>
+        </h1>
+
+        <h2>
+          Web Developer & Creative Designer
+        </h2>
+
+        <p class="hero-description">
+          Saya membuat website modern, cepat, responsif,
+          dan memiliki tampilan yang menarik.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">
+            Lihat Project
+            <span>↗</span>
+          </a>
+
+          <a href="#contact" class="btn secondary">
+            Hubungi Saya
+          </a>
+        </div>
+
+        <div class="socials">
+          <a href="https://github.com/" target="_blank">GitHub</a>
+          <a href="https://instagram.com/" target="_blank">Instagram</a>
+          <a href="https://linkedin.com/" target="_blank">LinkedIn</a>
+        </div>
+
+      </div>
+
+      <div class="hero-card reveal">
+
+        <div class="profile-card">
+
+          <div class="card-top">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+
+          <div class="code">
+            <p><span class="purple">const</span> developer = {</p>
+
+            <p class="indent">
+              name:
+              <span class="green">"Nama Kamu"</span>,
+            </p>
+
+            <p class="indent">
+              role:
+              <span class="green">"Web Developer"</span>,
+            </p>
+
+            <p class="indent">
+              passion:
+              <span class="green">"Creative"</span>,
+            </p>
+
+            <p class="indent">
+              coffee:
+              <span class="orange">true</span>
+            </p>
+
+            <p>};</p>
+
+            <div class="cursor"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- About -->
+    <section class="section about" id="about">
+
+      <div class="section-title reveal">
+        <p>01 — ABOUT</p>
+        <h2>Tentang <span>Saya</span></h2>
+      </div>
+
+      <div class="about-grid">
+
+        <div class="about-text reveal">
+          <p>
+            Halo! Saya <strong>Nama Kamu</strong>, seorang
+            developer yang tertarik dengan dunia teknologi,
+            desain, dan pembuatan website.
+          </p>
+
+          <p>
+            Saya suka mengubah ide menjadi website yang
+            sederhana, modern, dan mudah digunakan.
+          </p>
+
+          <p>
+            Saat ini saya terus belajar dan mengembangkan
+            kemampuan saya di bidang web development.
+          </p>
+        </div>
+
+        <div class="stats reveal">
+
+          <div class="stat-card">
+            <strong>10+</strong>
+            <span>Project</span>
+          </div>
+
+          <div class="stat-card">
+            <strong>2+</strong>
+            <span>Tahun Belajar</span>
+          </div>
+
+          <div class="stat-card">
+            <strong>100%</strong>
+            <span>Semangat</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+
+      <div class="section-title reveal">
+        <p>02 — SKILLS</p>
+        <h2>Keahlian <span>Saya</span></h2>
+      </div>
+
+      <div class="skills-grid">
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">01</div>
+          <h3>HTML</h3>
+          <p>
+            Membuat struktur website yang rapi,
+            semantik, dan mudah dikembangkan.
+          </p>
+          <div class="skill-line">
+            <span style="width: 90%"></span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">02</div>
+          <h3>CSS</h3>
+          <p>
+            Membuat desain modern, responsif,
+            animasi, dan layout yang menarik.
+          </p>
+          <div class="skill-line">
+            <span style="width: 85%"></span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">03</div>
+          <h3>JavaScript</h3>
+          <p>
+            Menambahkan interaksi dan fitur
+            dinamis pada website.
+          </p>
+          <div class="skill-line">
+            <span style="width: 75%"></span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">04</div>
+          <h3>UI Design</h3>
+          <p>
+            Membuat tampilan interface yang
+            clean, modern, dan nyaman digunakan.
+          </p>
+          <div class="skill-line">
+            <span style="width: 80%"></span>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Projects -->
+    <section class="section projects" id="projects">
+
+      <div class="section-title reveal">
+        <p>03 — PROJECTS</p>
+        <h2>Project <span>Saya</span></h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <article class="project-card reveal">
+
+          <div class="project-image project-one">
+            <span>01</span>
+          </div>
+
+          <div class="project-content">
+            <p class="project-type">WEBSITE</p>
+            <h3>Website Modern</h3>
+
+            <p>
+              Website landing page dengan desain
+              modern dan responsive.
+            </p>
+
+            <div class="tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JS</span>
+            </div>
+
+            <a href="#" class="project-link">
+              Lihat Project ↗
+            </a>
+          </div>
+
+        </article>
+
+        <article class="project-card reveal">
+
+          <div class="project-image project-two">
+            <span>02</span>
+          </div>
+
+          <div class="project-content">
+            <p class="project-type">DASHBOARD</p>
+            <h3>Admin Dashboard</h3>
+
+            <p>
+              Dashboard sederhana dengan tampilan
+              clean dan informatif.
+            </p>
+
+            <div class="tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+
+            <a href="#" class="project-link">
+              Lihat Project ↗
+            </a>
+          </div>
+
+        </article>
+
+        <article class="project-card reveal">
+
+          <div class="project-image project-three">
+            <span>03</span>
+          </div>
+
+          <div class="project-content">
+            <p class="project-type">PORTFOLIO</p>
+            <h3>Personal Portfolio</h3>
+
+            <p>
+              Website portfolio pribadi untuk
+              menampilkan karya dan kemampuan.
+            </p>
+
+            <div class="tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JS</span>
+            </div>
+
+            <a href="#" class="project-link">
+              Lihat Project ↗
+            </a>
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+
+      <div class="contact-box reveal">
+
+        <p class="contact-number">04 — CONTACT</p>
+
+        <h2>
+          Punya ide menarik?
+          <span>Mari ngobrol.</span>
+        </h2>
+
+        <p>
+          Jika ingin bekerja sama atau sekadar
+          berdiskusi, silakan hubungi saya.
+        </p>
+
+        <a href="mailto:emailkamu@gmail.com" class="btn primary">
+          Kirim Email ↗
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© <span id="year"></span> Nama Kamu.</p>
+    <p>Built with HTML, CSS & JavaScript.</p>
+  </footer>
+
+  <button class="top-btn" id="topBtn">↑</button>
+
+  <script src="script.js"></script>
+</body>
+  </html>
